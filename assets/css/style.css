@@ -22,6 +22,31 @@ body {
     text-transform: uppercase;
 }
 
+/* Header class rules */
 .header-nav {
+    background-color: green;
+}
+
+/* Welcome banner class rules */
+.welcome-banner {
+    background-color: blue;
+
+}
+
+/* Main body class rules */
+.main-body {
+    background-color: yellow;
+
+}
+
+/* Contacts and email class rules */
+.contacts-and-email {
+    background-color: red;
+
+}
+
+/* Footer rules*/
+#footer {
+    background-color: orange;
 
 }
