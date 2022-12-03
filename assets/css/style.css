@@ -1,6 +1,7 @@
 /* font url import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* general styling for the page */
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +12,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* Logo placement and design */
 #logo {
     float: left;
     font-size: 200%;
     margin-top: 30px;
     margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.header-nav {
+
 }
