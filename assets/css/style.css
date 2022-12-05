@@ -18,9 +18,14 @@ body {
     float: left;
     font-size: 200%;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 80px;
     text-transform: uppercase;
     color: #c25811;
+}
+
+#logo, .navbar {
+    line-height: 30px;
+    clear: both;
 }
 
 /* header class rules */
@@ -31,7 +36,20 @@ body {
 }
 
 /* navbar rules */
+.navbar, li {
+    float: left;
+    list-style-type: none;
+    margin-left: 40px;
+}
 
+.navbar, a {
+    text-decoration: none;
+    color: black;
+}
+
+.navber, a:hover {
+    border-bottom: 3px solid darkgreen;
+}
 
 /* welcome banner class rules */
 .welcome-banner {
