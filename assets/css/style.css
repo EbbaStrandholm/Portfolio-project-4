@@ -53,10 +53,15 @@ body {
 
 /* welcome banner class rules */
 .welcome-banner {
-    background-color: blue;
     width: 100%;
-    height: 250px;
+    height: 425px;
 
+}
+
+#welcome-pic {
+    background-image:url("../images/coffeemug.jpg");
+    width: 100%;
+    height: 425px;
 }
 
 /* Main body class rules */
