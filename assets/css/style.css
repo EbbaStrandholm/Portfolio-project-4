@@ -65,7 +65,7 @@ body {
 #welcome-text, #welcome-text h2, #welcome-text p {
     font-size: 130%;
     color: #281f1e;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #welcome-text {
