@@ -13,7 +13,7 @@ body {
 }
 
 
-/* Logo placement and design */
+/* logo placement and design */
 #logo {
     float: left;
     font-size: 200%;
@@ -23,14 +23,17 @@ body {
     color: #c25811;
 }
 
-/* Header class rules */
+/* header class rules */
 .header-nav {
     background-color: green;
     width: 100%;
     height: 100px;
 }
 
-/* Welcome banner class rules */
+/* navbar rules */
+
+
+/* welcome banner class rules */
 .welcome-banner {
     background-color: blue;
     width: 100%;
@@ -73,7 +76,6 @@ body {
     float: left;
     background-color: red;
     margin-right: 10px;
-
 }
 
 #contacts {
@@ -81,7 +83,6 @@ body {
     height: 250px;
     float: right;
     background-color: pink;
-
 }
 
 /* Footer rules*/
@@ -89,5 +90,4 @@ body {
     background-color: orange;
     width: 100%;
     height: 100px;
-
 }
