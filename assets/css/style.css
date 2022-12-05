@@ -130,7 +130,8 @@ body {
     width: 40%;
     float: left;
     background-color: aqua;
-}
+} /* create general structure and placement for drinks, so it doesn't clash
+with the other parts' space */
 
 #coffeemug-icon {
     width: 8%;
@@ -146,6 +147,28 @@ body {
     width: 40%;
     float: right;
     background-color: rgb(102, 102, 73);
+} /* create general structure and placement for desserts, so it doesn't clash
+with the other parts' space */
+
+.items {
+    display: block;
+    padding-top: 15px;
+} /* make the items in the menu fall into a vertical list, for both the drinks and desserts*/
+
+#drinks h2 {
+    color: #281f1e;
+    padding-left: 90px;
+    padding-bottom: 30px;
+    line-height: 20px;
+    clear: both;
+}
+
+#desserts h2 {
+    color: #281f1e;
+    padding-left: 90px;
+    padding-bottom: 30px;
+    line-height: 20px;
+    clear: both;
 }
 
 #book-table {
