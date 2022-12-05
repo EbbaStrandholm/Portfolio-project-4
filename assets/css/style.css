@@ -20,7 +20,7 @@ body {
     margin-top: 30px;
     margin-left: 80px;
     text-transform: uppercase;
-    color: #735343;
+    color: #281f1e;
 }
 
 #logo, .navbar {
@@ -30,7 +30,7 @@ body {
 
 /* header class rules */
 .header-nav {
-    background-color: #e1b995;
+    background-color: #b28a67;
     width: 100%;
     height: 100px;
 }
@@ -45,7 +45,7 @@ body {
 
 .navbar, a {
     text-decoration: none;
-    color: #3c302f;
+    color: #281f1e;
 }
 
 .navber, a:hover {
@@ -58,8 +58,34 @@ body {
     height: 400px;
     overflow: hidden;
 
+    position: relative;
 }
 
+/* welcome-text specific rules */
+#welcome-text, #welcome-text h2, #welcome-text p {
+    font-size: 130%;
+    color: #281f1e;
+    margin-top: 20px;
+}
+
+#welcome-text {
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+    width: 200px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 20px;
+    background-color: #74604e;
+
+    bottom: 40px;
+    right: 160px;
+    position: absolute;
+}
+
+/* welcome-pic specific rules */
 #welcome-pic {
     background: url("../images/coffeemug.jpg");
     width: 100%;
@@ -79,6 +105,8 @@ body {
         transform: scale(1.05);
     }
 }
+
+
 
 /* Main body class rules */
 .main-body {
