@@ -116,23 +116,41 @@ body {
 /* drinks and desserts menu */
 #menu {
     width: 49%;
-    height: 500px;
+    height: 600px;
     float: left;
     background-color: blueviolet;
     margin-right: 10px;
 }
 
 #drinks {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    width: 40%;
+    float: left;
+    background-color: aqua;
+}
 
+#coffeemug-icon {
+    width: 8%;
+    margin: 0 auto;
+    background-color: bisque;
 }
 
 #desserts {
-    
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    width: 40%;
+    float: right;
+    background-color: rgb(102, 102, 73);
 }
 
 #book-table {
     width: 49%;
-    height: 500px;
+    height: 600px;
     float: right;
     background-color: yellow;
 }
