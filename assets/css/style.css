@@ -232,11 +232,49 @@ with the other parts' space */
     margin-right: 10px;
 }
 
+/* contacts general rules and position */
 #contacts {
     width: 49%;
     height: 250px;
     float: right;
-    background-color: pink;
+    background-color: #74604e;
+    border-radius: 25px;
+}
+
+#location {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    width: 40%;
+    float: left;
+    color: #281f1e;
+} /* general placement of the location part of contacts */
+
+#location h2, #location p {
+    padding: 10px;
+}
+
+#location p {
+    font-size: 20px;
+}
+
+#phone-and-email {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    width: 40%;
+    float: right;
+    color: #281f1e;
+} /* general placement of the phone and email part of contacts */
+
+#phone-and-email h2, #phone-and-email p {
+    padding: 10px;
+}
+
+#phone-and-email p {
+    font-size: 20px;
 }
 
 /* Footer rules*/
