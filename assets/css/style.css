@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #281f1e;
 }
 
 
@@ -30,7 +31,7 @@ body {
 
 /* header class rules */
 .header-nav {
-    background-color: #b28a67;
+    background-color: #74604e;
     width: 100%;
     height: 100px;
 }
@@ -83,6 +84,8 @@ body {
     bottom: 40px;
     right: 160px;
     position: absolute;
+
+    border-radius: 40px;
 }
 
 /* welcome-pic specific rules */
@@ -201,6 +204,7 @@ with the other parts' space */
     width: 50%;
     float: left;
     background: url(../images/espresso-hand.jpg);
+    border-radius: 25px;
 }
 
 #menu-pic2 {
@@ -208,6 +212,7 @@ with the other parts' space */
     width: 50%;
     background: url(../images/cafe-table.jpg);
     float: right;
+    border-radius: 25px;
 }
 
 /* Contacts and email class rules */
