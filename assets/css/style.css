@@ -67,7 +67,7 @@ body {
     font-size: 130%;
     color: #281f1e;
     margin-top: 10px;
-}
+} /* styles the text inside the welcome text bubble */
 
 #welcome-text {
     font-size: 130%;
@@ -86,7 +86,8 @@ body {
     position: absolute;
 
     border-radius: 40px;
-}
+} /* styles the text-bubble that appears on top of the welcome banner for the webbpage, as well as sets its position as absolute
+so it stays in place neatly over the banner */
 
 /* welcome-pic specific rules */
 #welcome-pic {
@@ -125,7 +126,7 @@ body {
     float: left;
     margin-right: 10px;
     border-radius: 25px;
-}
+} /* sets the size and margin of the menu element, as well as it's position. adding some style as well */
 
 #drinks {
     padding-top: 30px;
@@ -163,13 +164,13 @@ with the other parts' space */
     padding-bottom: 30px;
     line-height: 20px;
     clear: both;
-}
+} /* styles the heading for the drinks part of the menu */
 
 #drinks hr {
     border-top: solid 2px;
     color: #281f1e;
     width: 100%;
-}
+} /* adds a horizontal line */
 
 #desserts h2 {
     color: #281f1e;
@@ -177,13 +178,13 @@ with the other parts' space */
     padding-bottom: 30px;
     line-height: 20px;
     clear: both;
-}
+} /* styles and positions the heading for the dessert part of the menu */
 
 #desserts hr {
     border-top: solid 2px;
     color: #281f1e;
     width: 100%;
-}
+} /* adds a horizontal line */
 
 /* coffee-mug icon */
 #coffeemug-icon {
@@ -205,7 +206,7 @@ with the other parts' space */
     float: left;
     background: url(../images/espresso-hand.jpg);
     border-radius: 25px;
-}
+} /* styles and inserts the picture next to the menu element */
 
 #menu-pic2 {
     height: 500px;
@@ -213,7 +214,7 @@ with the other parts' space */
     background: url(../images/cafe-table.jpg);
     float: right;
     border-radius: 25px;
-}
+} /* styles and inserts the cafe-table image next to pic1 */
 
 /* Contacts and email class rules */
 .contacts-and-email {
@@ -245,7 +246,7 @@ with the other parts' space */
     width: 100%;
     height: 100px;
     text-align: center;
-}
+} /* set the height and width of the footer, as well as make sure that it is placed underneath the other elements in the webbpage */
 
 #footer ul {
     font-size: 20px;
@@ -255,10 +256,10 @@ with the other parts' space */
     padding-top: 30px;
     padding-bottom: 20px;
     color: #9b8068;
-}
+} /* makes sure that the social media icons/links is in the right position, at the center of the footer */
 
 #footer a i {
     color: #9b8068;
     font-size: 200%;
     letter-spacing: 50px;
-}
+} /* adds some style and size for the favicons for the social media links */
