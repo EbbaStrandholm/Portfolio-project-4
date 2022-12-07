@@ -112,8 +112,6 @@ body {
 /* main body class rules */
 .main-body {
     height: 500px;
-    background-color: #74604e;
-    border-radius: 25px;
     margin-top: 50px;
     margin-left: 1%;
     margin-right: 1%;
@@ -121,10 +119,12 @@ body {
 
 /* drinks and desserts menu */
 #menu {
+    background-color: #74604e;
     width: 49%;
-    height: 600px;
+    height: 500px;
     float: left;
     margin-right: 10px;
+    border-radius: 25px;
 }
 
 #drinks {
@@ -195,7 +195,7 @@ with the other parts' space */
 /* The div that contains a picture that stands next to the menu with the motif of a ... */
 #menu-picture {
     width: 49%;
-    height: 600px;
+    height: 500px;
     float: right;
 }
 
@@ -218,6 +218,7 @@ with the other parts' space */
 /* Contacts and email class rules */
 .contacts-and-email {
     height: 250px;
+    margin-top: 50px;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -239,7 +240,19 @@ with the other parts' space */
 
 /* Footer rules*/
 #footer {
-    background-color: orange;
+    background-color: #281f1e;
+    margin-top: 50px;
     width: 100%;
     height: 100px;
+    text-align: center;
+}
+
+#footer ul {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #9b8068;
 }
