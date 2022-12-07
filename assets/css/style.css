@@ -189,11 +189,25 @@ with the other parts' space */
     padding-top: 30px;
 }
 
-#book-table {
+/* The div that contains a picture that stands next to the menu with the motif of a ... */
+#menu-picture {
     width: 49%;
     height: 600px;
     float: right;
-    background-color: yellow;
+}
+
+#menu-pic1 {
+    height: 500px;
+    width: 50%;
+    float: left;
+    background: url(../images/espresso-hand.jpg);
+}
+
+#menu-pic2 {
+    height: 500px;
+    width: 50%;
+    background: url(../images/cafe-table.jpg);
+    float: right;
 }
 
 /* Contacts and email class rules */
