@@ -228,8 +228,9 @@ with the other parts' space */
     width: 49%;
     height: 250px;
     float: left;
-    background-color: red;
+    background-color: #74604e;
     margin-right: 10px;
+    border-radius: 25px;
 }
 
 /* contacts general rules and position */
